@@ -1,0 +1,195 @@
+@charset "UTF-8";
+/*
+* Skeleton V2.0.4
+* Copyright 2014, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 12/29/2014
+*/
+/* Table of contents
+––––––––––––––––––––––––––––––––––––––––––––––––––
+- Grid
+- Base Styles
+- Typography
+- Links
+- Buttons
+- Forms
+- Lists
+- Code
+- Tables
+- Spacing
+- Utilities
+- Clearing
+- Media Queries
+*/
+.bc-box {
+  /* Grid
+  –––––––––––––––––––––––––––––––––––––––––––––––––– */
+  /* For devices larger than 400px */
+  /* For devices larger than 550px */
+  /* Clearing
+  –––––––––––––––––––––––––––––––––––––––––––––––––– */
+  /* Self Clearing Goodness */
+  /* Media Queries
+  –––––––––––––––––––––––––––––––––––––––––––––––––– */
+  /*
+  Note: The best way to structure the use of media queries is to create the queries
+  near the relevant code. For example, if you wanted to change the styles for buttons
+  on small devices, paste the mobile query code up in the buttons section and style it
+  there.
+  */
+  /* Larger than mobile */
+  /* Larger than phablet (also point when grid becomes active) */
+  /* Larger than tablet */
+  /* Larger than desktop */
+  /* Larger than Desktop HD */
+}
+.bc-box .container {
+  position: relative;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+.bc-box .column,
+.bc-box .columns {
+  width: 100%;
+  float: left;
+  box-sizing: border-box;
+}
+@media (min-width: 400px) {
+  .bc-box .container {
+    width: 85%;
+    padding: 0;
+  }
+}
+@media (min-width: 550px) {
+  .bc-box {
+    /* Offsets */
+  }
+  .bc-box .container {
+    width: 80%;
+  }
+  .bc-box .column,
+.bc-box .columns {
+    margin-left: 4%;
+  }
+  .bc-box .column:first-child,
+.bc-box .columns:first-child {
+    margin-left: 0;
+  }
+  .bc-box .one.column,
+.bc-box .one.columns {
+    width: 4.6666666667%;
+  }
+  .bc-box .two.columns {
+    width: 13.3333333333%;
+  }
+  .bc-box .three.columns {
+    width: 22%;
+  }
+  .bc-box .four.columns {
+    width: 30.6666666667%;
+  }
+  .bc-box .five.columns {
+    width: 39.3333333333%;
+  }
+  .bc-box .six.columns {
+    width: 48%;
+  }
+  .bc-box .seven.columns {
+    width: 56.6666666667%;
+  }
+  .bc-box .eight.columns {
+    width: 65.3333333333%;
+  }
+  .bc-box .nine.columns {
+    width: 74%;
+  }
+  .bc-box .ten.columns {
+    width: 82.6666666667%;
+  }
+  .bc-box .eleven.columns {
+    width: 91.3333333333%;
+  }
+  .bc-box .twelve.columns {
+    width: 100%;
+    margin-left: 0;
+  }
+  .bc-box .one-third.column {
+    width: 30.6666666667%;
+  }
+  .bc-box .two-thirds.column {
+    width: 65.3333333333%;
+  }
+  .bc-box .one-half.column {
+    width: 48%;
+  }
+  .bc-box .offset-by-one.column,
+.bc-box .offset-by-one.columns {
+    margin-left: 8.6666666667%;
+  }
+  .bc-box .offset-by-two.column,
+.bc-box .offset-by-two.columns {
+    margin-left: 17.3333333333%;
+  }
+  .bc-box .offset-by-three.column,
+.bc-box .offset-by-three.columns {
+    margin-left: 26%;
+  }
+  .bc-box .offset-by-four.column,
+.bc-box .offset-by-four.columns {
+    margin-left: 34.6666666667%;
+  }
+  .bc-box .offset-by-five.column,
+.bc-box .offset-by-five.columns {
+    margin-left: 43.3333333333%;
+  }
+  .bc-box .offset-by-six.column,
+.bc-box .offset-by-six.columns {
+    margin-left: 52%;
+  }
+  .bc-box .offset-by-seven.column,
+.bc-box .offset-by-seven.columns {
+    margin-left: 60.6666666667%;
+  }
+  .bc-box .offset-by-eight.column,
+.bc-box .offset-by-eight.columns {
+    margin-left: 69.3333333333%;
+  }
+  .bc-box .offset-by-nine.column,
+.bc-box .offset-by-nine.columns {
+    margin-left: 78%;
+  }
+  .bc-box .offset-by-ten.column,
+.bc-box .offset-by-ten.columns {
+    margin-left: 86.6666666667%;
+  }
+  .bc-box .offset-by-eleven.column,
+.bc-box .offset-by-eleven.columns {
+    margin-left: 95.3333333333%;
+  }
+  .bc-box .offset-by-one-third.column,
+.bc-box .offset-by-one-third.columns {
+    margin-left: 34.6666666667%;
+  }
+  .bc-box .offset-by-two-thirds.column,
+.bc-box .offset-by-two-thirds.columns {
+    margin-left: 69.3333333333%;
+  }
+  .bc-box .offset-by-one-half.column,
+.bc-box .offset-by-one-half.columns {
+    margin-left: 52%;
+  }
+}
+.bc-box .container:after,
+.bc-box .row:after,
+.bc-box .u-cf {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*# sourceMappingURL=frame.css.map */
